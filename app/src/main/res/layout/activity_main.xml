@@ -1,0 +1,422 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/input_nama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nama"
+        android:inputType="textPersonName"
+        android:textSize="16sp"
+        app:met_floatingLabel="highlight" />
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/input_kondisiEkonomi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Kondisi Ekonomi"
+        android:inputType="text"
+        android:textSize="16sp"
+        app:met_floatingLabel="highlight" />
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/input_jenisKelamin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Jenis Kelamin"
+        android:inputType="text"
+        android:textSize="16sp"
+        app:met_floatingLabel="highlight" />
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/input_tempatLahir"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Tempat Lahir"
+        android:inputType="text"
+        android:textSize="16sp"
+        app:met_floatingLabel="highlight" />
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/input_tglLahir"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Tanggal Lahir"
+        android:inputType="text"
+        android:textSize="16sp"
+        app:met_floatingLabel="highlight" />
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/input_pendidikan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Pendidikan"
+        android:inputType="text"
+        android:textSize="16sp"
+        app:met_floatingLabel="highlight" />
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/input_jenisPekerjaan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Jenis Pekerjaan"
+        android:inputType="text"
+        android:textSize="16sp"
+        app:met_floatingLabel="highlight" />
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/input_agama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Agama"
+        android:inputType="text"
+        android:textSize="16sp"
+        app:met_floatingLabel="highlight" />
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/input_tempatBaptis"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Tempat Baptis"
+        android:inputType="text"
+        android:textSize="16sp"
+        app:met_floatingLabel="highlight" />
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/input_pastorBaptis"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Pastor yang Membaptis"
+        android:inputType="text"
+        android:textSize="16sp"
+        app:met_floatingLabel="highlight" />
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/input_waliBaptis1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Wali Baptis 1"
+        android:inputType="text"
+        android:textSize="16sp"
+        app:met_floatingLabel="highlight" />
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/input_waliBaptis2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Wali Baptis 2"
+        android:inputType="text"
+        android:textSize="16sp"
+        app:met_floatingLabel="highlight" />
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/input_noLB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nomor LB"
+        android:inputType="text"
+        android:textSize="16sp"
+        app:met_floatingLabel="highlight" />
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/input_statusPernikahan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Status Pernikahan"
+        android:inputType="text"
+        android:textSize="16sp"
+        app:met_floatingLabel="highlight" />
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/input_tempatMenikah"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Tempat Menikah"
+        android:inputType="text"
+        android:textSize="16sp"
+        app:met_floatingLabel="highlight" />
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/input_tglMenikah"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Tanggal Menikah"
+        android:inputType="text"
+        android:textSize="16sp"
+        app:met_floatingLabel="highlight" />
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/input_pastorNikah"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Pastor yang Menikahkan"
+        android:inputType="text"
+        android:textSize="16sp"
+        app:met_floatingLabel="highlight" />
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/input_saksiNikah1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Saksi Nikah 1"
+        android:inputType="text"
+        android:textSize="16sp"
+        app:met_floatingLabel="highlight" />
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/input_saksiNikah2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Saksi Nikah 2"
+        android:inputType="text"
+        android:textSize="16sp"
+        app:met_floatingLabel="highlight" />
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/input_noLM"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nomor LM"
+        android:inputType="text"
+        android:textSize="16sp"
+        app:met_floatingLabel="highlight" />
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/input_jenisPerkawinan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Jenis Perkawinan"
+        android:inputType="text"
+        android:textSize="16sp"
+        app:met_floatingLabel="highlight" />
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/input_hubDalamKeluarga"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Hubungan dalam Keluarga"
+        android:inputType="text"
+        android:textSize="16sp"
+        app:met_floatingLabel="highlight" />
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/input_domisili"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Domisili"
+        android:inputType="text"
+        android:textSize="16sp"
+        app:met_floatingLabel="highlight" />
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/input_tempatKrisma"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Tempat Krisma"
+        android:inputType="text"
+        android:textSize="16sp"
+        app:met_floatingLabel="highlight" />
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/input_tglKrisma"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Tanggal Krisma"
+        android:inputType="text"
+        android:textSize="16sp"
+        app:met_floatingLabel="highlight" />
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/input_nomorKrisma"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nomor Krisma"
+        android:inputType="text"
+        android:textSize="16sp"
+        app:met_floatingLabel="highlight" />
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/input_namaAyah"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nama Ayah"
+        android:inputType="text"
+        android:textSize="16sp"
+        app:met_floatingLabel="highlight" />
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/input_namaIbu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nama Ibu"
+        android:inputType="text"
+        android:textSize="16sp"
+        app:met_floatingLabel="highlight" />
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/input_keterangan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Keterangan"
+        android:inputType="text"
+        android:textSize="16sp"
+        app:met_floatingLabel="highlight" />
+
+
+    <Button
+        android:id="@+id/simpan_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="submit"
+        android:text="simpan"
+        android:textAllCaps="true"
+        android:textSize="16sp"
+        tools:ignore="OnClick" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:background="#eceff1"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/nama" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/nomor_kk" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/stasi" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/alamat" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/kondisi_ekonomi" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text=":" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text=":" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text=":" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text=":" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text=":" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp">
+
+            <TextView
+                android:id="@+id/hasil_nama"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <TextView
+                android:id="@+id/hasil_nik"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <TextView
+                android:id="@+id/hasil_umur"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <TextView
+                android:id="@+id/hasil_alamat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <TextView
+                android:id="@+id/hasil_institusi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>
