@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".DetailsActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/tampil_nama"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:padding="6dp" />
+
+            <TextView
+                android:id="@+id/tampil_stasi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:padding="6dp" />
+
+            <TextView
+                android:id="@+id/tampil_desa"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:padding="6dp" />
+
+            <TextView
+                android:id="@+id/tampil_kondisi_ekonomi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:padding="6dp" />
+
+            <TextView
+                android:id="@+id/tampil_jenis_kelamin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:padding="6dp" />
+
+            <TextView
+                android:id="@+id/tampil_tempat_lahir"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:padding="6dp" />
+
+            <TextView
+                android:id="@+id/tampil_tgl_lahir"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:padding="6dp" />
+
+            <TextView
+                android:id="@+id/tampil_pendidikan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:padding="6dp" />
+
+            <TextView
+                android:id="@+id/tampil_jenis_pekerjaan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:padding="6dp" />
+
+            <TextView
+                android:id="@+id/tampil_agama"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:padding="6dp" />
+
+            <TextView
+                android:id="@+id/tampil_tempat_baptis"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:padding="6dp" />
+
+            <TextView
+                android:id="@+id/tampil_tanggal_baptis"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:padding="6dp" />
+
+            <TextView
+                android:id="@+id/tampil_pastor_baptis"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:padding="6dp" />
+
+            <TextView
+                android:id="@+id/tampil_wali_baptis1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:padding="6dp" />
+
+            <TextView
+                android:id="@+id/tampil_wali_baptis2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:padding="6dp" />
+
+            <TextView
+                android:id="@+id/tampil_no_LB"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:padding="6dp" />
+
+            <TextView
+                android:id="@+id/tampil_status_pernikahan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:padding="6dp" />
+
+            <TextView
+                android:id="@+id/tampil_tempat_menikah"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:padding="6dp" />
+
+            <TextView
+                android:id="@+id/tampil_tgl_menikah"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:padding="6dp" />
+
+            <TextView
+                android:id="@+id/tampil_pastor_nikah"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:padding="6dp" />
+
+            <TextView
+                android:id="@+id/tampil_saksi_nikah1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:padding="6dp" />
+
+            <TextView
+                android:id="@+id/tampil_saksi_nikah2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:padding="6dp" />
+
+            <TextView
+                android:id="@+id/tampil_no_LM"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:padding="6dp" />
+
+            <TextView
+                android:id="@+id/tampil_jenis_perkawinan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:padding="6dp" />
+
+            <TextView
+                android:id="@+id/tampil_hub_dalam_keluarga"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:padding="6dp" />
+
+            <TextView
+                android:id="@+id/tampil_domisili"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:padding="6dp" />
+
+            <TextView
+                android:id="@+id/tampil_tempat_krisma"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:padding="6dp" />
+
+            <TextView
+                android:id="@+id/tampil_tgl_krisma"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:padding="6dp" />
+
+            <TextView
+                android:id="@+id/tampil_nomor_krisma"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:padding="6dp" />
+
+            <TextView
+                android:id="@+id/tampil_nama_ayah"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:padding="6dp" />
+
+            <TextView
+                android:id="@+id/tampil_nama_ibu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:padding="6dp" />
+
+            <TextView
+                android:id="@+id/tampil_keterangan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:padding="6dp" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

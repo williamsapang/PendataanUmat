@@ -27,6 +27,24 @@
         app:met_floatingLabel="highlight" />
 
     <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/input_stasi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Stasi"
+        android:inputType="text"
+        android:textSize="16sp"
+        app:met_floatingLabel="highlight" />
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/input_desa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Desa"
+        android:inputType="text"
+        android:textSize="16sp"
+        app:met_floatingLabel="highlight" />
+
+    <com.rengwuxian.materialedittext.MaterialEditText
         android:id="@+id/input_kondisiEkonomi"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -71,7 +89,7 @@
         android:textSize="16sp"
         app:met_floatingLabel="highlight" />
 
-    <com.rengwuxian.materialedittext.MaterialEditText
+        <com.rengwuxian.materialedittext.MaterialEditText
         android:id="@+id/input_jenisPekerjaan"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -94,6 +112,15 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Tempat Baptis"
+        android:inputType="text"
+        android:textSize="16sp"
+        app:met_floatingLabel="highlight" />
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/input_tanggalBaptis"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Tanggal Baptis"
         android:inputType="text"
         android:textSize="16sp"
         app:met_floatingLabel="highlight" />
@@ -279,140 +306,16 @@
         app:met_floatingLabel="highlight" />
 
 
-    <Button
-        android:id="@+id/simpan_button"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:onClick="submit"
-        android:text="simpan"
-        android:textAllCaps="true"
-        android:textSize="16sp"
-        tools:ignore="OnClick" />
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="180dp"
-        android:background="#eceff1"
-        android:orientation="horizontal">
-
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:orientation="vertical"
-            android:layout_marginLeft="8dp"
-            android:layout_marginTop="8dp">
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="@string/nama" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="@string/nomor_kk" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="@string/stasi" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="@string/alamat" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="@string/kondisi_ekonomi" />
-
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:orientation="vertical"
-            android:layout_marginLeft="8dp"
-            android:layout_marginTop="8dp">
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text=":" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text=":" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text=":" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text=":" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text=":" />
-
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="vertical"
-            android:layout_marginLeft="8dp"
-            android:layout_marginTop="8dp">
-
-            <TextView
-                android:id="@+id/hasil_nama"
+            <Button
+                android:id="@+id/simpan_button"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_weight="1" />
+                android:onClick="submit"
+                android:text="simpan"
+                android:textAllCaps="true"
+                android:textSize="16sp"
+                tools:ignore="OnClick" />
 
-            <TextView
-                android:id="@+id/hasil_nik"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_weight="1" />
-
-            <TextView
-                android:id="@+id/hasil_umur"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_weight="1" />
-
-            <TextView
-                android:id="@+id/hasil_alamat"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_weight="1" />
-
-            <TextView
-                android:id="@+id/hasil_institusi"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_weight="1" />
-
-        </LinearLayout>
-
-    </LinearLayout>
 
         </LinearLayout>
 
